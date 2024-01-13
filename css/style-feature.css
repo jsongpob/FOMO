@@ -1,0 +1,476 @@
+.collection-header{
+    background-image: url(https://images.unsplash.com/photo-1545328732-fd7ea6242f4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2970&q=80);
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+}
+.headertitle{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+}
+.fomo-btn-outline{
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    outline: 2px solid white;
+    padding: 10px 50px 10px 50px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    border-radius: 40px;
+    transition: 0.5s;
+}
+.fomo-btn-outline:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.fomo-btn-color{
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    background: linear-gradient(88.68deg, #FEC863 -8.89%, #F37BF6 55.06%, #57E5FF 117.69%);
+    padding: 12px 55px 13px 55px;
+    font-size: 20px;
+    border-radius: 40px;
+    transition: 0.5s;
+}
+.fomo-btn-color:hover{
+    background: linear-gradient(88.68deg, #FEC863 -8.89%, #F37BF6 55.06%, #57E5FF 117.69%);
+    color: #FFF;
+}
+
+.timer-coll-info{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.795);
+    height: 90px;
+    border-radius: 10px;
+    margin-top: -60px;
+    margin-left: 0rem;
+    width: 94%;
+}
+.timer-coll-date{
+    margin-top: 3rem;
+    margin-left: -9rem;
+    letter-spacing: 12px;
+    font-size: 54px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+}
+.trend-info-item-left{
+
+}
+.trend-info-item-left>.coll-icons{
+    margin-left: 2rem;
+}
+.trend-info-item-left>.info-title{
+    margin-left: -9rem;
+    margin-top: -2rem;
+}
+
+@media screen and (min-width: 576px){
+
+    .timer-coll-info{
+        margin-left: 56.5rem;
+    }
+
+    .header-card-section{
+        padding-top: 18rem;
+    }
+    .card-show{
+        display: none;
+    }
+    .btn-dd{
+        display: none;
+    }
+}
+@media screen and (max-width: 576px){
+
+    .timer-coll-info{
+        /* margin-left: 50rem; */
+        margin-top: 4rem;
+    }
+    .header-card-section{
+        padding-top: 13rem;
+    }
+    .card-hidden{
+        display: none;
+    }
+    .btn-dd{
+        display: block;
+    }
+}
+
+.fomo-color{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    background: linear-gradient(90deg, #FEC863 0%, #F37BF6 52%, #57E5FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.user-fomo-hl{
+    background-color: rgba(0, 0, 0, 0.879);
+}
+.bar-collection{
+    background-color: #111111;
+    width: 100%;
+    height: 100px;
+}
+.bar-collection>.left{
+    height: 100px;
+}
+
+.bar-collection>.left>h2{
+    font-size: 28px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.633);
+}
+#underline-box{
+    /* background-color: red; */
+    border-bottom: 3px solid #ffffff;
+    font-size: 28px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    padding: 33px 0 33px 0;
+    cursor: pointer;
+    color: #fff;
+}
+.hr-btn>h2{
+    font-size: 22px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+.hr-btn{
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    outline: 1.5px solid white;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.3s;
+}
+.hr-btn:hover{
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    color: #000;
+    background-color: #fff;
+}
+
+/* Tredning Collections Section */
+
+.T-Collections>.container>.h3{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+}
+
+.t-collections-card{
+    background-color: #111111;
+    padding: 13px;
+    border-radius: 30px;
+    /* width: 30rem; */
+    height: 380px;
+    transition: 0.3s;
+    cursor: pointer;
+    color: #fff;
+}
+.t-collections-card:hover{
+    background-color: #ffff;
+    padding: 13px;
+    border-radius: 30px;
+    /* width: 30rem; */
+    /* height: 500px; */
+    color: #111111;
+}
+
+.t-collections-img{
+    width: 270px;
+    height: 270px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.t-collections-img-side{
+    width: 6.2rem;
+    height: 5.3rem;
+    object-fit: cover;
+    border-radius: 13px;
+    /* margin-left: 280px; */
+}
+.t-coll-side-img{
+    margin-right: 500rem;
+}
+/* .t-collections-img-side-2{
+    margin-top: 95px;
+}
+.t-collections-img-side-3{
+    margin-top: 200px;
+} */
+.t-collections-card>.card-body{
+    /* color: #fff; */
+}
+.t-coll-left{
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+.t-coll-right>.card-title{
+    color: #4f4f4f;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    text-align: end;
+}
+.t-coll-right>p{
+    text-align: end;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+}
+.t-collections-card>.card-body{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.text-gradient{
+    background: linear-gradient(90deg, #FEC863 0%, #F37BF6 50.52%, #57E5FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Fomo Stories */
+.fomo-stories{
+    background-color: #111111;
+}
+.fomo-stories h1{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 400;
+}
+
+.fomo-st-pp img{
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+    border-radius: 100%;
+    padding: 1.5px;
+    background: linear-gradient(90deg, #FEC863 0%, #F37BF6 50.52%, #57E5FF 100%);
+    cursor: pointer;
+    transition: 0.3s;
+    transform: scale(1.0);
+}
+.fomo-st-pp img:hover{
+    transform: scale(1.1);
+    filter: brightness(80%);
+}
+
+/* Spotlight Section */
+
+.spotlight-section>.h1{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 400;
+}
+.spotlight-section>.h5{
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-weight: 400;
+}
+.btn-date{
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    cursor: pointer;
+    color: #1d1d1d;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.btn-date:hover{
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    cursor: pointer;
+    color: #111111;
+    background-color: #fff;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+}
+.spotlight-section>.active{
+    background-color: #fff;
+    color: #111;
+}
+.spotlight-section>.dropdownmenu{
+    background-color: #fff;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.sl-card{
+    background-color: #57E5FF;
+    /* padding: 10px; */
+    border-radius: 10px;
+}
+.sl-card img{
+    margin-top: 13px;
+    width: 295px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.t-spotlight-card{
+    background-color: #111;
+    /* padding: 13px; */
+    border-radius: 15px;
+    /* width: 30rem; */
+    height: 380px;
+    transition: 0.3s;
+    cursor: pointer;
+    color: #fff;
+}
+.t-spotlight-card:hover{
+    background-color: #ffff;
+    /* padding: 13px; */
+    border-radius: 15px;
+    /* width: 30rem; */
+    /* height: 500px; */
+    color: #111111;
+}
+.t-sp-card-body{
+    margin-top: 310px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.btn-load-more{
+    color: #111;
+    background-color: #fff;
+    padding: 20px 35px 20px 35px;
+    border-radius: 50px;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn-load-more:hover{
+    color: #fff;
+    background-color: #111;
+    padding: 20px 35px 20px 35px;
+    border-radius: 50px;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.fomo-text{
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-weight: normal;
+}
+
+.btn-fomo-outline{
+    outline: 1px solid white;
+    color: #fff;
+    padding: 15px;
+    padding: 15px 20px 15px 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.btn-fomo-outline:hover{
+    background-color: #fff;
+    color: #111;
+    padding: 15px;
+    padding: 15px 20px 15px 20px;
+    border-radius: 10px;
+}
+
+.fomoc-card img{
+    border-radius: 100%;
+}
+
+.fomoc-card-body{
+    background-color: #111;
+    /* padding: 13px; */
+    border-radius: 20px;
+    /* width: 30rem; */
+    height: 400px;
+    transition: 0.3s;
+    cursor: pointer;
+    color: #fff;
+}
+.fomoc-card-body:hover{
+    background-color: #fff;
+    /* padding: 13px; */
+    border-radius: 20px;
+    /* width: 30rem; */
+    height: 400px;
+    transition: 0.3s;
+    cursor: pointer;
+    color: #111;
+}
+
+.cc-all{
+    z-index: -2;
+}
+
+.cc-1{
+    background-color: #57E5FF;
+    width: 30rem;
+    height: 30rem;
+    filter: blur(70px);
+    margin-top: -190rem;
+}
+.cc-2{
+    background-color: #F37BF6;
+    width: 20rem;
+    height: 20rem;
+    filter: blur(80px);
+    margin-top: -170rem;
+    margin-left: 80rem;
+}
+.cc-3{
+    background-color: #FEC863;
+    width: 20rem;
+    height: 20rem;
+    filter: blur(80px);
+    margin-top: -190rem;
+    margin-left: 60rem;
+}
+.cc-4{
+    background-color: #57E5FF;
+    width: 30rem;
+    height: 30rem;
+    filter: blur(70px);
+    margin-top: -120rem;
+    margin-left: 70rem;
+}
+.cc-5{
+    background-color: #F37BF6;
+    width: 20rem;
+    height: 20rem;
+    filter: blur(80px);
+    margin-top: -100rem;
+    margin-left: 0rem;
+}
+.cc-6{
+    background-color: #FEC863;
+    width: 30rem;
+    height: 30rem;
+    filter: blur(80px);
+    margin-top: -70rem;
+    margin-left: 40rem;
+}
+.cc-7{
+    background-color: #57E5FF;
+    width: 30rem;
+    height: 30rem;
+    filter: blur(70px);
+    margin-top: -20rem;
+    margin-left: 0rem;
+}
+.cc-8{
+    background-color: #F37BF6;
+    width: 20rem;
+    height: 20rem;
+    filter: blur(80px);
+    margin-top: -30rem;
+    margin-left: 40rem;
+}
+.cc-9{
+    background-color: #FEC863;
+    width: 30rem;
+    height: 30rem;
+    filter: blur(80px);
+    margin-top: -20rem;
+    margin-left: 70rem;
+}

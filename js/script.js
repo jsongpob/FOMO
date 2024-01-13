@@ -1,0 +1,39 @@
+function hideShowDiv(val)
+{
+    if(val==0)
+    {
+        document.getElementById('div-form-1').style.display='none';
+        document.getElementById('div-form-2').style.display='none';
+        document.getElementById('div-form-3').style.display='none';
+        document.getElementById('div-form-4').style.display='none';
+    }
+    if(val==1)
+    {
+        document.getElementById('div-form-1').style.display='block';
+        document.getElementById('div-form-2').style.display='none';
+        document.getElementById('div-form-3').style.display='none';
+        document.getElementById('div-form-4').style.display='none';
+    }
+    if(val==2)
+    {
+        document.getElementById('div-form-1').style.display='none';
+        document.getElementById('div-form-2').style.display='block';
+        document.getElementById('div-form-3').style.display='none';
+        document.getElementById('div-form-4').style.display='none';
+    }
+    if(val==3)
+    {
+        document.getElementById('div-form-1').style.display='none';
+        document.getElementById('div-form-2').style.display='none';
+        document.getElementById('div-form-3').style.display='block';
+        document.getElementById('div-form-4').style.display='none';
+    }
+    if(val==4)
+    {
+        document.getElementById('div-form-1').style.display='none';
+        document.getElementById('div-form-2').style.display='none';
+        document.getElementById('div-form-3').style.display='none';
+        document.getElementById('div-form-4').style.display='block';
+    }
+    return true;
+}

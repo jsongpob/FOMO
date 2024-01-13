@@ -1,0 +1,279 @@
+.fomo-btn-1{
+    padding: 10px 50px 10px 50px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: 0.5s;
+}
+
+.fomo-btn-1:hover{
+    background-color: #fff;
+}
+.circle-3c{
+    background-color: #57E5FF;
+    background: linear-gradient(90deg, #FEC863 0%, #F37BF6 50.52%, #57E5FF 100%);
+    width: 50rem;
+    height: 50rem;
+    border-radius: 100%;
+    display: block;
+    filter: blur(50px);
+    z-index: -2;
+}
+.title-partner{
+    font-family: 'Space Grotesk', sans-serif;
+}
+.subtitle-partner{
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+.detail{
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    line-height: 2rem;
+    font-size: 1.5rem;
+}
+
+.fomo-btn-2{
+    padding: 10px 50px 10px 50px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 40px;
+    background: linear-gradient(88.68deg, #FEC863 -8.89%, #F37BF6 55.06%, #57E5FF 117.69%);
+    transition: 0.5s;
+}
+.fomo-btn-2:hover{
+    box-shadow: 1px -3px 68px -11px rgba(0,0,0,0.66);
+    -webkit-box-shadow: 1px -3px 68px -11px rgba(0,0,0,0.66);
+    -moz-box-shadow: 1px -3px 68px -11px rgba(0,0,0,0.66);
+}
+
+.circle-g-1{
+    width: 40rem;
+    height: 40rem;
+    display: block;
+    border-radius: 100%;
+    filter: blur(50px);
+    background-color: #FEC863;
+    z-index: -1;
+}
+
+.partner{
+    z-index: 3;
+}
+
+.network-icon{
+    background: linear-gradient(90deg, #FEC863 0%, #F37BF6 50.52%, #57E5FF 100%);
+    font-size: 10rem;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 7rem;
+}
+
+.text-spc{
+    font-size: 10rem;
+    background: linear-gradient(90deg, #FEC863 0%, #F37BF6 50.52%, #57E5FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.network-icon-1{
+    background: #fff;
+    font-size: 10rem;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 7rem;
+}
+
+.network-font{
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-size: 2rem;
+}
+
+.lh-1{
+    line-height: 20rem;
+}
+
+.mg-l{
+    margin-left: 2rem;
+}
+
+.text-fomo{
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    background: linear-gradient(90deg, #FEC863 30%, #F37BF6 52%, #57E5FF 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fomo-submit{
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    color: #fff;
+}
+
+#div-form-1{
+    display: none;
+}
+#div-form-2{
+    display: none;
+}
+#div-form-3{
+    display: none;
+}
+#div-form-4{
+    display: none;
+}
+
+.text-form{
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-size: 1.5rem;
+}
+
+.text-form-detail{
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-size: 1.2rem;
+}
+
+.text-form-detail-1{
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-size: 1rem;
+    color: rgb(156, 156, 156);
+}
+
+.fomo-btn-f{
+    padding: 10px 50px 10px 50px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: 0.5s;
+    margin-top: 1.5rem;
+}
+
+.fomo-btn-f:hover{
+    padding: 10px 50px 10px 50px;
+    font-size: 20px;
+    color: black;
+    border-radius: 10px;
+    /* border: 2px solid white; */
+    transition: 0.5s;
+    margin-top: 1.5rem;
+    background: linear-gradient(88.68deg, #FEC863 -8.89%, #F37BF6 55.06%, #57E5FF 117.69%);
+}
+
+.form-check-input{
+    background-color: black;
+    border: 2px white solid;
+}
+
+.form-check-input:hover{
+    background-color: white;
+    border: 2px white solid;
+}
+
+
+.form-control{
+    background-color: black;
+    outline: none;
+    color: #fff;
+}
+.form-select{
+    background-color: black;
+    font-size: 1.0rem;
+    color: rgb(103, 103, 103);
+}
+
+.form-select-1{
+    font-size: 1.0rem;
+    color: rgb(255, 255, 255);
+}
+
+.fomo-title-c{
+    margin-left: 2rem;
+}
+.fomo-title-c1{
+    /* font-size: 5rem; */
+    margin-left: 1rem;
+    font-family: 'Space Grotesk', sans-serif;
+    color: white;
+}
+.mg-2{
+    margin-top: 3.2rem;
+}
+
+.cc-all{
+    z-index: -2;
+}
+
+.cct-0{
+    background: linear-gradient(88.68deg, #FEC863 -8.89%, #F37BF6 55.06%, #57E5FF 117.69%);
+    width: 40rem;
+    height: 40rem;
+    border-radius: 100%;
+    filter: blur(70px);
+    margin-top: -250rem;
+    margin-left: 30rem;
+}
+
+.cct-1{
+    background-color: #FEC863;
+    width: 20rem;
+    height: 20rem;
+    filter: blur(70px);
+    border-radius: 100%;
+    margin-top: -200rem;
+    margin-left: 80rem;
+}
+.cct-2{
+    background-color: #FEC863;
+    width: 20rem;
+    height: 20rem;
+    filter: blur(70px);
+    border-radius: 100%;
+    margin-top: -205rem;
+    margin-left: 50rem;
+}
+
+.cct-3{
+    background: linear-gradient(88.68deg, #FEC863 -8.89%, #F37BF6 55.06%, #57E5FF 117.69%);
+    width: 40rem;
+    height: 40rem;
+    border-radius: 100%;
+    filter: blur(70px);
+    margin-top: -120rem;
+    margin-left: -20rem;
+}
+.cct-4{
+    background: linear-gradient(88.68deg, #FEC863 -8.89%, #F37BF6 55.06%, #57E5FF 117.69%);
+    width: 40rem;
+    height: 40rem;
+    border-radius: 100%;
+    filter: blur(70px);
+    margin-top: -120rem;
+    margin-left: 80rem;
+}
+.cct-5{
+    background: linear-gradient(88.68deg, #FEC863 -8.89%, #F37BF6 55.06%, #57E5FF 117.69%);
+    width: 40rem;
+    height: 40rem;
+    border-radius: 100%;
+    filter: blur(140px);
+    margin-top: -50rem;
+}
+.cct-6{
+    background: linear-gradient(88.68deg, #FEC863 -8.89%, #F37BF6 55.06%, #57E5FF 117.69%);
+    width: 40rem;
+    height: 40rem;
+    border-radius: 100%;
+    filter: blur(140px);
+    margin-top: -30rem;
+    margin-left: 80rem;
+}
+
+.cct-0-ph{
+    background: linear-gradient(88.68deg, #FEC863 -8.89%, #F37BF6 55.06%, #57E5FF 117.69%);
+    width: 40rem;
+    height: 40rem;
+    border-radius: 100%;
+    filter: blur(70px);
+    margin-top: -410rem;
+    margin-left: -4rem;
+    z-index: -2;
+}

@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- custom website -->
+    <link rel="shortcut icon" href="./image/logo/fomo-single.png" type="image/x-icon">
+    <title>FOMO | Collections</title>
+
+    <!-- import google icon font -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@300" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- import Bootstrap 5.2 -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- link css to this html -->
+    <link rel="stylesheet" href="./css/style-main.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style-feature.css">
+    <link rel="stylesheet" href="./css/style-contact.css">
+
+    <title>Collections</title>
+
+</head>
+<body>
+   
+    <div class="wrapper">
+        <header class="wrapper-1">
+            <nav class="navbar navbar-expand-lg bgf-black px-1 py-3 px-3">
+                <div class="container-fluid">
+                  <a class="navbar-brand" id="fomologo" href="#"><img src="./image/logo/fomo-light.png"></a>
+        
+                  <div class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="material-symbols-outlined iconwhite mx-1">account_circle</span>
+                    <span class="material-symbols-outlined iconwhite mx-1">account_balance_wallet</span>
+                    <span class="material-symbols-outlined iconwhite mx-1">shopping_cart</span>
+                    <span class="material-symbols-outlined iconwhite">reorder</span>
+                  </div>
+                  
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item"><a class="nav-link mx-3 unactive" aria-current="page" href="./index.html">Home</a></li>
+                      <li class="nav-item"><a class="nav-link mx-3 text-white" aria-current="page" href="#">Explore</a></li>
+                      <li class="nav-item"><a class="nav-link unactive mx-3" aria-current="page" href="#">Resoure</a></li>
+                      <li class="nav-item"><a class="nav-link unactive mx-3" aria-current="page" href="#">Create</a></li>
+                      <li class="nav-item"><a class="nav-link unactive mx-3" aria-current="page" href="./contact.html">Chain</a></li>
+                    </ul>
+        
+                    <div class="d-flex" data-toggle="collapse" id="navbariconhide">
+                        <div d="navbariconhide">
+                            <a href=""><span class="material-symbols-outlined iconwhite mx-3">account_circle</span></a>
+                            <a href=""><span class="material-symbols-outlined iconwhite mx-3">account_balance_wallet</span></a>
+                           <a href=""><span class="material-symbols-outlined iconwhite mx-3">shopping_cart</span></a>
+                        </div>
+                    </div>
+        
+                  </div>
+                </div> <!-- container-fluid -->
+            </nav> <!-- navbar -->
+
+            <div class="collection-header">
+              <div class="container">
+                <div class="header-card-section">
+
+                  <div class="user-fomo-hl d-flex align-items-center p-2 justify-content-center rounded-3" style="width: 13.5rem;">
+                    <div style="width: 3rem; height: 3rem;" class="rounded-2 avatar-1"></div>
+                    <H5 class="text-white mx-1 fomo-color">Gustavo Curtis</H5> <span class="material-symbols-outlined text-white">verified</span>
+                  </div>
+
+                  <h1 class="display-1 text-white headertitle my-3">Paityn Vaccaro</h1>
+
+                  <div class="btn-section my-2">
+                    <button type="button" class="btn fomo-btn-color my-3 fw-500">ประมูล</button>
+                    <button type="button" class="btn fomo-btn-outline my-3 fw-500 mx-2">ดูเพิ่มเติม</button>
+                  </div>
+
+                  <div class="timer-coll-info position-sticky translate-middle-y start-0" style="width: 25.3rem; height: 8rem;">
+                    <div class="trend-info-item">
+                        <div class="trend-info-item-left">
+                            <span class="material-symbols-outlined coll-icons position-absolute top-50 start-0 translate-middle">diamond</span>
+                            <h5 class="position-absolute top-50 info-title">ประมูลนี้จะจบใน</h5>
+                            <h3 class="position-absolute timer-coll-date">22:32:34</h3>
+                        </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="bar-collection">
+              <div class="container bar-collection d-flex align-items-center justify-content-between">
+                <div class="left d-flex gap-5 align-items-center">
+                    <div id="underline-box" class="text-center d-flex">
+                      <h2>Trending</h2>
+                    </div>
+                  <h2 class="">Top</h2>
+                </div>
+
+                <div class="hr-btn d-flex align-items-center right">
+                  <h2>24h</h2><span class="material-symbols-outlined">expand_more</span>
+                </div>
+              </div>
+            </div>
+
+        </header>
+        <!-- Trending Collcetions -->
+        <section class="T-Collections">
+          <div class="container mb-5">
+            <h1 class="h3 text-white py-4">Collections</h1>
+
+              <div class="row row-cols-1 row-cols-4 g-4 justify-content-center">
+
+                <div class="col" style="width: 26.5rem;"><!-- card-1 -->
+                  <div class="t-collections-card">
+                    <!-- Large Image -->
+                    <img src="https://images.unsplash.com/photo-1569788505691-b9f09fd33adf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1030&q=80" class="card-img-top t-collections-img position-absolute" alt="...">
+                    <!-- Small Image -->
+                    <div class="d-flex flex-column align-items-start t-coll-side-img" style="margin-left: 17.3rem">
+                      <img src="https://images.unsplash.com/photo-1484136199491-6603c473c88b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80" class="card-img-top t-collections-img-side mb-2" alt="...">
+
+                      <img src="https://images.unsplash.com/photo-1556117372-2842e075b345?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80" class="card-img-top t-collections-img-side t-collections-img-side-2 mb-2" alt="...">
+
+                      <img src="https://images.unsplash.com/photo-1512482170774-d19aa2390114?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80" class="card-img-top t-collections-img-side t-collections-img-side-3" alt="...">
+                    </div>
+
+                    <div class="card-body mt-3 d-flex justify-content-between">
+                      <div class="t-coll-left">
+                        <h5 class="card-title h5 mb-lg-1">ริมถนนคนเดิน</h5>
+                        <div class="d-flex justify-content-center align-items-center"><img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1587&q=80" style="width: 2rem; height: 2rem; object-fit: cover; border-radius: 100%;" class=""><p class="card-text mx-2 text-gradient">@Invetor</p></div>
+                      </div>
+                      <div class="t-coll-right">
+                        <h5 class="card-title">ราคาเริ่มต้นที่</h5>
+                        <p class="card-text-btc h2 my-1 text-gradient">2.00 BTC</p>
+                      </div>
+                    </div>
+
+                  </div>
+                </div><!-- card-2 -->
+
+                <div class="col" style="width: 26.5rem;"><!-- card-1 -->
+                  <div class="t-collections-card">
+                    <!-- Large Image -->
+                    <img src="https://images.unsplash.com/photo-1501854140801-50d01698950b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2175&q=80" class="card-img-top t-collections-img position-absolute" alt="...">
+                    <!-- Small Image -->
+                    <div class="d-flex flex-column align-items-start t-coll-side-img" style="margin-left: 17.3rem">
+                      <img src="https://images.unsplash.com/photo-1431794062232-2a99a5431c6c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" class="card-img-top t-collections-img-side mb-2" alt="...">
+
+                      <img src="https://images.unsplash.com/photo-1464254786740-b97e5420c299?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1771&q=80" class="card-img-top t-collections-img-side t-collections-img-side-2 mb-2" alt="...">
+
+                      <img src="https://images.unsplash.com/photo-1505852679233-d9fd70aff56d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" class="card-img-top t-collections-img-side t-collections-img-side-3" alt="...">
+                    </div>
+
+                    <div class="card-body mt-3 d-flex justify-content-between">
+                      <div class="t-coll-left">
+                        <h5 class="card-title h5 mb-lg-1">โลกที่ไม่มีวันเปลี่ยน</h5>
+                        <div class="d-flex justify-content-center align-items-center position-absolute"><img src="https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" style="width: 2rem; height: 2rem; object-fit: cover; border-radius: 100%;" class=""><p class="card-text mx-2 text-gradient">@paityn</p></div>
+                      </div>
+                      <div class="t-coll-right">
+                        <h5 class="card-title">ราคาเริ่มต้นที่</h5>
+                        <p class="card-text-btc h2 my-1 text-gradient">10.00 BTC</p>
+                      </div>
+                    </div>
+
+                  </div>
+                </div><!-- card-2 -->
+
+                <div class="col" style="width: 26.5rem;"><!-- card-3 -->
+                  <div class="t-collections-card">
+                    <!-- Large Image -->
+                    <img src="https://images.unsplash.com/photo-1484406566174-9da000fda645?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=778&q=80" class="card-img-top t-collections-img position-absolute" alt="...">
+                    <!-- Small Image -->
+                    <div class="d-flex flex-column align-items-start t-coll-side-img" style="margin-left: 17.3rem">
+                      <img src="https://images.unsplash.com/photo-1474511320723-9a56873867b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1772&q=80" class="card-img-top t-collections-img-side mb-2" alt="...">
+
+                      <img src="https://images.unsplash.com/photo-1494247622028-9a5bbfbf529a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1772&q=80" class="card-img-top t-collections-img-side t-collections-img-side-2 mb-2" alt="...">
+
+                      <img src="https://images.unsplash.com/photo-1492201722955-33e840ece203?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2076&q=80" class="card-img-top t-collections-img-side t-collections-img-side-3" alt="...">
+                    </div>
+
+                    <div class="card-body mt-3 d-flex justify-content-between">
+                      <div class="t-coll-left">
+                        <h5 class="card-title h5 mb-lg-1">สัตว์รอบโลก</h5>
+                        <div class="d-flex justify-content-center align-items-center  position-absolute"><img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" style="width: 2rem; height: 2rem; object-fit: cover; border-radius: 100%;" class=""><p class="card-text mx-2 text-gradient">@phillip</p></div>
+                      </div>
+                      <div class="t-coll-right">
+                        <h5 class="card-title">ราคาเริ่มต้นที่</h5>
+                        <p class="card-text-btc h2 my-1 text-gradient">7.00 BTC</p>
+                      </div>
+                    </div>
+
+                  </div>
+                </div><!-- card-3 -->
+
+                <div class="col card-hidden" style="width: 26.5rem;"><!-- card-4 -->
+                  <div class="t-collections-card">
+                    <!-- Large Image -->
+                    <img src="https://images.unsplash.com/photo-1435575653489-b0873ec954e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" class="card-img-top t-collections-img position-absolute" alt="...">
+                    <!-- Small Image -->
+                    <div class="d-flex flex-column align-items-start t-coll-side-img" style="margin-left: 17.3rem">
+                      <img src="https://images.unsplash.com/photo-1512403754473-27835f7b9984?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=830&q=80" class="card-img-top t-collections-img-side mb-2" alt="...">
+
+                      <img src="https://images.unsplash.com/photo-1485628390555-1a7bd503f9fe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" class="card-img-top t-collections-img-side t-collections-img-side-2 mb-2" alt="...">
+
+                      <img src="https://images.unsplash.com/photo-1498322787346-775f77e49b2e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80" class="card-img-top t-collections-img-side t-collections-img-side-3" alt="...">
+                    </div>
+
+                    <div class="card-body mt-3 d-flex justify-content-between">
+                      <div class="t-coll-left">
+                        <h5 class="card-title h5 mb-lg-1">ไร้คน</h5>
+                        <div class="d-flex justify-content-center align-items-center  position-absolute"><img src="https://images.unsplash.com/photo-1521119989659-a83eee488004?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=846&q=80" style="width: 2rem; height: 2rem; object-fit: cover; border-radius: 100%;" class=""><p class="card-text mx-2 text-gradient">@livia</p></div>
+                      </div>
+                      <div class="t-coll-right">
+                        <h5 class="card-title">ราคาเริ่มต้นที่</h5>
+                        <p class="card-text-btc h2 my-1 text-gradient">5.00 BTC</p>
+                      </div>
+                    </div>
+
+                  </div>
+                </div><!-- card-4 -->
+
+                <div class="col card-hidden" style="width: 26.5rem;"><!-- card-5 -->
+                  <div class="t-collections-card">
+                    <!-- Large Image -->
+                    <img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1080&q=80" class="card-img-top t-collections-img position-absolute" alt="...">
+                    <!-- Small Image -->
+                    <div class="d-flex flex-column align-items-start t-coll-side-img" style="margin-left: 17.3rem">
+                      <img src="https://images.unsplash.com/photo-1529042410759-befb1204b468?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80" class="card-img-top t-collections-img-side mb-2" alt="...">
+
+                      <img src="https://images.unsplash.com/photo-1574484284002-952d92456975?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" class="card-img-top t-collections-img-side t-collections-img-side-2 mb-2" alt="...">
+
+                      <img src="https://images.unsplash.com/photo-1600803907087-f56d462fd26b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=654&q=80" class="card-img-top t-collections-img-side t-collections-img-side-3" alt="...">
+                    </div>
+
+                    <div class="card-body mt-3 d-flex justify-content-between">
+                      <div class="t-coll-left">
+                        <h5 class="card-title h5 mb-lg-1">หิว.</h5>
+                        <div class="d-flex justify-content-center align-items-center  position-absolute"><img src="https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" style="width: 2rem; height: 2rem; object-fit: cover; border-radius: 100%;" class=""><p class="card-text mx-2 text-gradient">@ann</p></div>
+                      </div>
+                      <div class="t-coll-right">
+                        <h5 class="card-title">ราคาเริ่มต้นที่</h5>
+                        <p class="card-text-btc h2 my-1 text-gradient">8.00 BTC</p>
+                      </div>
+                    </div>
+
+                  </div>
+                </div><!-- card-5 -->
+
+                <div class="col card-hidden" style="width: 26.5rem;"><!-- card-6 -->
+                  <div class="t-collections-card">
+                    <!-- Large Image -->
+                    <img src="https://images.unsplash.com/photo-1532135468830-e51699205b70?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80" class="card-img-top t-collections-img position-absolute" alt="...">
+                    <!-- Small Image -->
+                    <div class="d-flex flex-column align-items-start t-coll-side-img" style="margin-left: 17.3rem">
+                      <img src="https://images.unsplash.com/photo-1511063446034-1fd002632d6c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" class="card-img-top t-collections-img-side mb-2" alt="...">
+
+                      <img src="https://images.unsplash.com/photo-1433888104365-77d8043c9615?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2073&q=80" class="card-img-top t-collections-img-side t-collections-img-side-2 mb-2" alt="...">
+
+                      <img src="https://images.unsplash.com/photo-1580566176138-daa588058b59?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" class="card-img-top t-collections-img-side t-collections-img-side-3" alt="...">
+                    </div>
+
+                    <div class="card-body mt-3 d-flex justify-content-between">
+                      <div class="t-coll-left">
+                        <h5 class="card-title h5 mb-lg-1">สวยสีสดใส</h5>
+                        <div class="d-flex justify-content-center align-items-center  position-absolute"><img src="https://images.unsplash.com/photo-1511485977113-f34c92461ad9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" style="width: 2rem; height: 2rem; object-fit: cover; border-radius: 100%;" class=""><p class="card-text mx-2 text-gradient">@jordyn</p></div>
+                      </div>
+                      <div class="t-coll-right">
+                        <h5 class="card-title">ราคาเริ่มต้นที่</h5>
+                        <p class="card-text-btc h2 my-1 text-gradient">3.00 BTC</p>
+                      </div>
+                    </div>
+
+                  </div>
+                </div><!-- card-6 -->
+
+              </div>
+          </div>
+        </section><!-- Trending Collcetions -->
+
+        <!-- Fomo Stories -->
+        <section class="fomo-stories container-fluid py-4">
+          <h1 class="container text-white display-5 mb-4">FOMO Stories</h1>
+          <div class="fomo-st-pp d-flex container justify-content-between">
+            <img src="https://images.unsplash.com/photo-1511485977113-f34c92461ad9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="" class="">
+            <img src="https://images.unsplash.com/photo-1512646605205-78422b7c7896?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80" alt="" class="">
+            <img src="https://images.unsplash.com/photo-1527203561188-dae1bc1a417f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=830&q=80" alt="" class="d-sm-none d-md-block">
+            <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="" class="d-sm-none d-md-block">
+            <img src="https://images.unsplash.com/photo-1659535998184-15d6c9f5f873?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="" class="card-hidden d-sm-none d-md-block">
+            <img src="https://images.unsplash.com/photo-1511367461989-f85a21fda167?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2231&q=80" alt="" class="card-hidden d-md-none d-xl-block">
+            <img src="https://images.unsplash.com/photo-1529068755536-a5ade0dcb4e8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1181&q=80" alt="" class="card-hidden d-md-none d-xl-block ">
+            <img src="https://images.unsplash.com/photo-1554727242-741c14fa561c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="" class="card-hidden d-md-none d-xl-block">
+            <img src="https://images.unsplash.com/photo-1540569014015-19a7be504e3a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80" alt="" class="card-hidden d-sm-none d-md-block">
+            <img src="https://images.unsplash.com/photo-1499651681375-8afc5a4db253?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1697&q=80" alt="" class="card-hidden d-sm-none d-md-block">
+            <!-- <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="" class=""> -->
+            <!-- <img src="https://images.unsplash.com/photo-1517256673644-36ad11246d21?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="" class="">
+            <img src="https://images.unsplash.com/photo-1519058082700-08a0b56da9b4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="" class=""> -->
+          </div>
+        </section><!-- Fomo Stories -->
+
+        <!-- Spotlight -->
+        <section class="container-fluid spotlight-section">
+          <div class="container d-flex justify-content-between">
+            <div class="spotlight-section mt-5 spl-left">
+              <h1 class="h1 text-white">Spotlight</h1>
+              <h1 class="h5 text-white">ภาพสุดเฉิดฉาย</h1>
+            </div>
+            <div class="spotlight-section mt-5 spl-right d-flex gap-3 align-items-end">
+              <h1 class="h5 btn-date active card-hidden">7 วัน</h1>
+              <h1 class="h5 btn-date card-hidden">1 สัปดาห์</h1>
+              <h1 class="h5 btn-date card-hidden">ทั้งหมด</h1>
+
+              <div class="d-sm-none dropdownmenu d-flex justify-content-center align-items-center text-center">
+                <h2 class="">7 วัน</h2><span class="material-symbols-outlined">expand_more</span>
+              </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+          <div class="sl-card-section d-flex justify-content-center row row-cols-1 row-cols-xl-4 row-cols-md-2 gap-3 my-3">
+
+            <div class="col t-spotlight-card" style="width: 20rem;"><!-- card-1 -->
+              <div class=" sl-card">
+                <!-- Large Image -->
+                <img src="https://images.unsplash.com/photo-1483366774565-c783b9f70e2c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" class="card-img-top t-collections-img position-absolute" alt="...">
+              </div>
+
+                <div class="t-sp-card-body card-body d-flex justify-content-between">
+                  <div class="t-coll-left">
+                    <h5 class="card-title h6 mb-lg-1">ไร้คน</h5>
+                    <div class="d-flex justify-content-center align-items-center position-absolute"><img src="https://images.unsplash.com/photo-1519362909365-f8591adb630e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" style="width: 2rem; height: 2rem; object-fit: cover; border-radius: 100%;" class=""><p class="card-text mx-2 text-gradient">@livia</p></div>
+                  </div>
+                  <div class="t-coll-right">
+                    <h5 class="card-title">ราคาเริ่มต้นที่</h5>
+                    <p class="card-text-btc h4 mt-2 text-gradient">5.00 BTC</p>
+                  </div>
+                </div>
+            </div><!-- card-1 -->
+
+            <div class="col t-spotlight-card" style="width: 20rem;"><!-- card-2 -->
+              <div class=" sl-card">
+                <!-- Large Image -->
+                <img src="https://images.unsplash.com/photo-1508873696983-2dfd5898f08b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzB8fGNhbXBpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60" class="card-img-top t-collections-img position-absolute" alt="...">
+              </div>
+
+                <div class="t-sp-card-body card-body d-flex justify-content-between">
+                  <div class="t-coll-left">
+                    <h5 class="card-title h6 mb-lg-1">มีคนอยู่</h5>
+                    <div class="d-flex justify-content-center align-items-center position-absolute"><img src="https://images.unsplash.com/photo-1516575150278-77136aed6920?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" style="width: 2rem; height: 2rem; object-fit: cover; border-radius: 100%;" class=""><p class="card-text mx-2">@alena</p></div>
+                  </div>
+                  <div class="t-coll-right">
+                    <h5 class="card-title">ราคาเริ่มต้นที่</h5>
+                    <p class="card-text-btc h4 mt-2 text-gradient">2.00 BTC</p>
+                  </div>
+                </div>
+            </div><!-- card-2 -->
+
+            <div class="col t-spotlight-card" style="width: 20rem;"><!-- card-3 -->
+              <div class=" sl-card">
+                <!-- Large Image -->
+                <img src="https://images.unsplash.com/photo-1512332769329-a830bbcedf07?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80" class="card-img-top t-collections-img position-absolute" alt="...">
+              </div>
+
+                <div class="t-sp-card-body card-body d-flex justify-content-between">
+                  <div class="t-coll-left">
+                    <h5 class="card-title h6 mb-lg-1">โลเล</h5>
+                    <div class="d-flex justify-content-center align-items-center position-absolute"><img src="https://plus.unsplash.com/premium_photo-1664541336535-b73fc8ef74a7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" style="width: 2rem; height: 2rem; object-fit: cover; border-radius: 100%;" class=""><p class="card-text mx-2">@nakoa</p></div>
+                  </div>
+                  <div class="t-coll-right">
+                    <h5 class="card-title">ราคาเริ่มต้นที่</h5>
+                    <p class="card-text-btc h4 mt-2 text-gradient">6.00 BTC</p>
+                  </div>
+                </div>
+            </div><!-- card-3 -->
+
+            <div class="col t-spotlight-card" style="width: 20rem;"><!-- card-4 -->
+              <div class=" sl-card">
+                <!-- Large Image -->
+                <img src="https://images.unsplash.com/photo-1541519481457-763224276691?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" class="card-img-top t-collections-img position-absolute" alt="...">
+              </div>
+
+                <div class="t-sp-card-body card-body d-flex justify-content-between">
+                  <div class="t-coll-left">
+                    <h5 class="card-title h6 mb-lg-1">มีชีวิต</h5>
+                    <div class="d-flex justify-content-center align-items-center position-absolute"><img src="https://images.unsplash.com/photo-1601569398541-0f0fd5164f51?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=812&q=80" style="width: 2rem; height: 2rem; object-fit: cover; border-radius: 100%;" class=""><p class="card-text mx-2">@paityn</p></div>
+                  </div>
+                  <div class="t-coll-right">
+                    <h5 class="card-title">ราคาเริ่มต้นที่</h5>
+                    <p class="card-text-btc h4 mt-2 text-gradient">2.00 BTC</p>
+                  </div>
+                </div>
+            </div><!-- card-4 -->
+
+            <div class="col t-spotlight-card d-none d-lg-block" style="width: 20rem;"><!-- card-5 -->
+              <div class=" sl-card">
+                <!-- Large Image -->
+                <img src="https://images.unsplash.com/photo-1495107334309-fcf20504a5ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" class="card-img-top t-collections-img position-absolute" alt="...">
+              </div>
+
+                <div class="t-sp-card-body card-body d-flex justify-content-between">
+                  <div class="t-coll-left">
+                    <h5 class="card-title h6 mb-lg-1">ออกซิเจน</h5>
+                    <div class="d-flex justify-content-center align-items-center position-absolute"><img src="https://images.unsplash.com/photo-1599571821873-adb1cdc259ae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1036&q=80" style="width: 2rem; height: 2rem; object-fit: cover; border-radius: 100%;" class=""><p class="card-text mx-2">@golfwa</p></div>
+                  </div>
+                  <div class="t-coll-right">
+                    <h5 class="card-title">ราคาเริ่มต้นที่</h5>
+                    <p class="card-text-btc h4 mt-2 text-gradient">5.00 BTC</p>
+                  </div>
+                </div>
+            </div><!-- card-5 -->
+
+            <div class="col t-spotlight-card d-none d-lg-block" style="width: 20rem;"><!-- card-6 -->
+              <div class=" sl-card">
+                <!-- Large Image -->
+                <img src="https://images.unsplash.com/photo-1583855282680-6dbdc69b0932?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" class="card-img-top t-collections-img position-absolute" alt="...">
+              </div>
+
+                <div class="t-sp-card-body card-body d-flex justify-content-between">
+                  <div class="t-coll-left">
+                    <h5 class="card-title h6 mb-lg-1">เดอะเมืองเหนือ</h5>
+                    <div class="d-flex justify-content-center align-items-center position-absolute"><img src="https://images.unsplash.com/photo-1605400703449-1a0169d681dc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" style="width: 2rem; height: 2rem; object-fit: cover; border-radius: 100%;" class=""><p class="card-text mx-2 text-gradient">@uilpa</p></div>
+                  </div>
+                  <div class="t-coll-right">
+                    <h5 class="card-title">ราคาเริ่มต้นที่</h5>
+                    <p class="card-text-btc h4 mt-2 text-gradient">1.00 BTC</p>
+                  </div>
+                </div>
+            </div><!-- card-6 -->
+
+            <div class="col t-spotlight-card d-none d-lg-block" style="width: 20rem;"><!-- card-7 -->
+              <div class=" sl-card">
+                <!-- Large Image -->
+                <img src="https://images.unsplash.com/photo-1529432337323-223e988a90fb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTR8fGxpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60" class="card-img-top t-collections-img position-absolute" alt="...">
+              </div>
+
+                <div class="t-sp-card-body card-body d-flex justify-content-between">
+                  <div class="t-coll-left">
+                    <h5 class="card-title h6 mb-lg-1">เส้นสายแห่งชีวิต</h5>
+                    <div class="d-flex justify-content-center align-items-center position-absolute"><img src="https://images.unsplash.com/photo-1613418906921-1b949bf38d5f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" style="width: 2rem; height: 2rem; object-fit: cover; border-radius: 100%;" class=""><p class="card-text mx-2">@bank_p</p></div>
+                  </div>
+                  <div class="t-coll-right">
+                    <h5 class="card-title">ราคาเริ่มต้นที่</h5>
+                    <p class="card-text-btc h4 mt-2 text-gradient">2.00 BTC</p>
+                  </div>
+                </div>
+            </div><!-- card-7 -->
+
+            <div class="col t-spotlight-card d-none d-lg-block" style="width: 20rem;"><!-- card-8 -->
+              <div class=" sl-card">
+                <!-- Large Image -->
+                <img src="https://images.unsplash.com/photo-1525026198548-4baa812f1183?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fGhhcHB5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60" class="card-img-top t-collections-img position-absolute" alt="...">
+              </div>
+
+                <div class="t-sp-card-body card-body d-flex justify-content-between">
+                  <div class="t-coll-left">
+                    <h5 class="card-title h6 mb-lg-1">ความสุข</h5>
+                    <div class="d-flex justify-content-center align-items-center position-absolute"><img src="https://images.unsplash.com/photo-1624911104820-5316c700b907?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" style="width: 2rem; height: 2rem; object-fit: cover; border-radius: 100%;" class=""><p class="card-text mx-2 text-gradient">@lllovea</p></div>
+                  </div>
+                  <div class="t-coll-right">
+                    <h5 class="card-title">ราคาเริ่มต้นที่</h5>
+                    <p class="card-text-btc h4 mt-2 text-gradient">5.00 BTC</p>
+                  </div>
+                </div>
+            </div><!-- card-8 -->
+
+            <div class="col t-spotlight-card d-none d-lg-block" style="width: 20rem;"><!-- card-9 -->
+              <div class=" sl-card">
+                <!-- Large Image -->
+                <img src="https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80" class="card-img-top t-collections-img position-absolute" alt="...">
+              </div>
+
+                <div class="t-sp-card-body card-body d-flex justify-content-between">
+                  <div class="t-coll-left">
+                    <h5 class="card-title h6 mb-lg-1">ป่าสีเขียว</h5>
+                    <div class="d-flex justify-content-center align-items-center position-absolute"><img src="https://images.unsplash.com/photo-1625499706422-998dd9e31a66?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80" style="width: 2rem; height: 2rem; object-fit: cover; border-radius: 100%;" class=""><p class="card-text mx-2 text-gradient">@apoda</p></div>
+                  </div>
+                  <div class="t-coll-right">
+                    <h5 class="card-title">ราคาเริ่มต้นที่</h5>
+                    <p class="card-text-btc h4 mt-2 text-gradient">23.00 BTC</p>
+                  </div>
+                </div>
+            </div><!-- card-9 -->
+            
+            <div class="col t-spotlight-card d-none d-lg-block" style="width: 20rem;"><!-- card-10 -->
+              <div class=" sl-card">
+                <!-- Large Image -->
+                <img src="https://images.unsplash.com/photo-1594523960192-62b92c04089d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" class="card-img-top t-collections-img position-absolute" alt="...">
+              </div>
+
+                <div class="t-sp-card-body card-body d-flex justify-content-between">
+                  <div class="t-coll-left">
+                    <h5 class="card-title h6 mb-lg-1">กำแพงสรรค์</h5>
+                    <div class="d-flex justify-content-center align-items-center position-absolute"><img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" style="width: 2rem; height: 2rem; object-fit: cover; border-radius: 100%;" class=""><p class="card-text mx-2">@voais</p></div>
+                  </div>
+                  <div class="t-coll-right">
+                    <h5 class="card-title">ราคาเริ่มต้นที่</h5>
+                    <p class="card-text-btc h4 mt-2 text-gradient">8.00 BTC</p>
+                  </div>
+                </div>
+            </div><!-- card-10 -->
+
+            <div class="col t-spotlight-card d-none d-lg-block" style="width: 20rem;"><!-- card-11 -->
+              <div class=" sl-card">
+                <!-- Large Image -->
+                <img src="https://images.unsplash.com/photo-1610992137178-1d52e76374f4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1045&q=80" class="card-img-top t-collections-img position-absolute" alt="...">
+              </div>
+
+                <div class="t-sp-card-body card-body d-flex justify-content-between">
+                  <div class="t-coll-left">
+                    <h5 class="card-title h6 mb-lg-1">แตกต่างเหมือนกันนะ</h5>
+                    <div class="d-flex justify-content-center align-items-center position-absolute"><img src="https://images.unsplash.com/photo-1522556189639-b150ed9c4330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" style="width: 2rem; height: 2rem; object-fit: cover; border-radius: 100%;" class=""><p class="card-text mx-2 text-gradient">@zpoad</p></div>
+                  </div>
+                  <div class="t-coll-right">
+                    <h5 class="card-title">ราคาเริ่มต้นที่</h5>
+                    <p class="card-text-btc h4 mt-2 text-gradient">5.00 BTC</p>
+                  </div>
+                </div>
+            </div><!-- card-11 -->
+
+            <div class="col t-spotlight-card d-none d-lg-block" style="width: 20rem;"><!-- card-12 -->
+              <div class=" sl-card">
+                <!-- Large Image -->
+                <img src="https://images.unsplash.com/photo-1530579807716-d82c0991629a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" class="card-img-top t-collections-img position-absolute" alt="...">
+              </div>
+
+                <div class="t-sp-card-body card-body d-flex justify-content-between">
+                  <div class="t-coll-left">
+                    <h5 class="card-title h6 mb-lg-1">อาทิตย์</h5>
+                    <div class="d-flex justify-content-center align-items-center position-absolute"><img src="https://images.unsplash.com/photo-1489980557514-251d61e3eeb6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" style="width: 2rem; height: 2rem; object-fit: cover; border-radius: 100%;" class=""><p class="card-text mx-2">@gapod</p></div>
+                  </div>
+                  <div class="t-coll-right">
+                    <h5 class="card-title">ราคาเริ่มต้นที่</h5>
+                    <p class="card-text-btc h4 mt-2 text-gradient">7.00 BTC</p>
+                  </div>
+                </div>
+            </div><!-- card-12 -->
+
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-center my-5">
+          <H2 class="btn-load-more">ดูเพิ่มอีก</H2>
+        </div>
+        
+        </section><!-- Spotlight -->
+
+        <!-- fomo-creator -->
+        <section class="fomo-creator">
+          <div class="container">
+
+            <div class="mt-5 d-flex justify-content-between align-items-end">
+              <div class="fomo-text">
+                <h1 class="h1 text-white">FOMO Creator</h1>
+                <h1 class="h5 text-white">นักถ่ายภาพร้อนแรง</h1>
+              </div>
+              <div class="text-end fomo-text btn-fomo-outline"><h2>ดูทั้งหมด</h2></div>
+            </div>
+
+            <div class="d-flex justify-content-center row row-cols-1 row-cols-xl-4 row-cols-md-2 gap-4 py-5">
+
+              <div class="col fomoc-card-body" style="width: 19rem;"><!-- card-1 -->
+                <div class="fomoc-card d-flex justify-content-center">
+                  <img src="https://images.unsplash.com/photo-1510951475896-ce8cacb1899f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" class="card-img-top t-collections-img position-absolute mt-4" alt="...">
+                </div>
+                  <div class="t-sp-card-body card-body d-flex justify-content-center">
+                    <div class="t-coll-left">
+                      <h5 class="card-title h3 mb-lg-1 text-gradient">Glofwaswhen</h5>
+                      <h5 class="card-text text-center text-muted">@glof_waswhen</h5>
+                    </div>
+                  </div>
+              </div><!-- card-1 -->
+
+              <div class="col fomoc-card-body" style="width: 19rem;"><!-- card-1 -->
+                <div class="fomoc-card d-flex justify-content-center">
+                  <img src="https://images.unsplash.com/photo-1529068755536-a5ade0dcb4e8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1181&q=80" class="card-img-top t-collections-img position-absolute mt-4" alt="...">
+                </div>
+                  <div class="t-sp-card-body card-body d-flex justify-content-center">
+                    <div class="t-coll-left">
+                      <div class="d-flex align-items-center justify-content-center">
+                        <h5 class="card-title h3 mb-lg-1 text-gradient">Jayer</h5>
+                        <span class="material-symbols-outlined veri-fomop mb-2 mx-2">verified</span>
+                      </div>
+                      <h5 class="card-text text-center text-muted">@songpob</h5>
+                    </div>
+                  </div>
+              </div><!-- card-1 -->
+
+              <div class="col fomoc-card-body" style="width: 19rem;"><!-- card-1 -->
+                <div class="fomoc-card d-flex justify-content-center">
+                  <img src="https://images.unsplash.com/photo-1523464862212-d6631d073194?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" class="card-img-top t-collections-img position-absolute mt-4" alt="...">
+                </div>
+                  <div class="t-sp-card-body card-body d-flex justify-content-center">
+                    <div class="t-coll-left">
+                      <div class="d-flex align-items-center justify-content-center">
+                        <h5 class="card-title h3 mb-lg-1 text-gradient">PorporNotBaby</h5>
+                        <span class="material-symbols-outlined veri-fomop mb-2 mx-2">verified</span>
+                      </div>
+                      <h5 class="card-text text-center text-muted">@parichat</h5>
+                    </div>
+                  </div>
+              </div><!-- card-1 -->
+              
+
+              <div class="col fomoc-card-body" style="width: 19rem;"><!-- card-1 -->
+                <div class="fomoc-card d-flex justify-content-center">
+                  <img src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80" class="card-img-top t-collections-img position-absolute mt-4" alt="...">
+                </div>
+                  <div class="t-sp-card-body card-body d-flex justify-content-center">
+                    <div class="t-coll-left">
+                      <h5 class="card-title h3 mb-lg-1 text-gradient">Tiana Schleifer</h5>
+                      <h5 class="card-text text-center text-muted">@ssch_tiana</h5>
+                    </div>
+                  </div>
+              </div><!-- card-1 -->
+
+            </div>
+
+          </div>
+        </section>
+
+      <!-- background rounded blur -->
+        <div class="container-fluid">
+          <span class="cc-1 cc-all position-absolute"></span>
+          <span class="cc-2 cc-all position-absolute"></span>
+          <span class="cc-3 cc-all position-absolute"></span>
+        </div>
+
+        <div class="container-fluid">
+          <span class="cc-4 cc-all position-absolute"></span>
+          <span class="cc-5 cc-all position-absolute"></span>
+          <span class="cc-6 cc-all position-absolute"></span>
+        </div>
+
+        <div class="container-fluid">
+          <span class="cc-7 cc-all position-absolute"></span>
+          <span class="cc-8 cc-all position-absolute"></span>
+          <span class="cc-9 cc-all position-absolute"></span>
+        </div>
+
+
+      <!-- footer -->
+        <div class="container-fluid fomo-footer">
+          <div class="container">
+            <footer class="row row-cols-2 row-cols-sm-2 row-cols-md-6 py-5 px-2 container-fluid">
+              <div class="col mb-3">
+                <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+                    <img src="./image/logo/fomo-light.png" width="200rem">
+                </a>
+                <p class="text-white h4">Send your moment.</p>
+                <p class="text-white mt-5 fomo-f-subtitle f-fomo-mb-1">2022 - 2024 Songpob&Parichat, Inc</p>
+              </div>
+          
+              <div class="col mb-3"></div>
+          
+              <div class="col mb-3">
+                <h5 class="text-white h5 mb-4">Marketplace</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-4"><a href="#" class="nav-link p-0 text-white">Explore</a></li>
+                  <li class="nav-item mb-4"><a href="#" class="nav-link p-0 text-white">Blog</a></li>
+                  <li class="nav-item mb-4"><a href="#" class="nav-link p-0 text-white">FOMO+</a></li>
+                  <li class="nav-item mb-4"><a href="#" class="nav-link p-0 text-white">Help Center</a></li>
+                </ul>
+              </div>
+          
+              <div class="col mb-3">
+                <h5 class="text-white h5 mb-4">My Account</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-4"><a href="#" class="nav-link p-0 text-white">Profile</a></li>
+                  <li class="nav-item mb-4"><a href="#" class="nav-link p-0 text-white">My Collections</a></li>
+                  <li class="nav-item mb-4"><a href="#" class="nav-link p-0 text-white">Wallet</a></li>
+                  <li class="nav-item mb-4"><a href="#" class="nav-link p-0 text-white">Settings</a></li>
+                </ul>
+              </div>
+          
+              <div class="col mb-3">
+                <h5 class="text-white h5 mb-4">Stats</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-4"><a href="#" class="nav-link p-0 text-white">Rankings</a></li>
+                  <li class="nav-item mb-4"><a href="#" class="nav-link p-0 text-white">Activity</a></li>
+                </ul>
+              </div>
+    
+              <div class="col mb-3">
+                <h5 class="text-white h5 mb-4">Company</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-4"><a href="#" class="nav-link p-0 text-white">About</a></li>
+                  <li class="nav-item mb-4"><a href="#" class="nav-link p-0 text-white">Careers</a></li>
+                  <li class="nav-item mb-4"><a href="#" class="nav-link p-0 text-white">Vision</a></li>
+                </ul>
+              </div>
+    
+              <p class="text-white mt-5 fomo-f-subtitle f-fomo-mb-2">2022 - 2024 Songpob&Parichat, Inc</p>
+            </footer>
+          </div>
+        </div>
+
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+</body>
+</html>

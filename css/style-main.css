@@ -1,0 +1,488 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+body{
+    background-color: #000;
+    overflow-x: hidden;
+}
+/* root */
+:root{
+    --unactive: rgba(255, 255, 255, 0.3);
+    --icon-white: #fff
+
+}
+.display-7{
+    font-size: 1rem;
+}
+.fw-500{
+    font-weight: 500;
+}
+
+.wrapper{
+    /* background-color: black; */
+}
+.wrapper-blur-bg{
+    /* background-color: black */
+}
+
+.navbar{
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: rgba(0, 0, 0, 0.712);
+    backdrop-filter: blur(120px);
+    z-index: 2;
+}
+
+.iconwhite{
+    color: var(--icon-white);
+}
+.unactive{
+    color: var(--unactive);
+}
+.unactive:hover{
+    color: rgba(255, 255, 255, 1.0);
+}
+#fomologo img{
+    width: 100px;
+}
+
+.title{
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    padding: 100px 0px 100px 0px;
+    /* backdrop-filter: blur(40px); */
+    position: relative;
+    z-index: 2;
+}
+
+/* background only */
+/* .background-blur{
+    backdrop-filter: blur(120px);
+    z-index: 1;
+    width: 100%;
+    height: 20rem;
+    position: absolute;
+} */
+
+.circle-b{
+    width: 50rem;
+    height: 50rem;
+    border-radius: 100%;
+    display: block;
+    filter: blur(50px);
+    background-color: #57E5FF;
+    z-index: -1;
+}
+.circle-g{
+    width: 40rem;
+    height: 40rem;
+    display: block;
+    border-radius: 100%;
+    filter: blur(50px);
+    background-color: #FEC863;
+    z-index: -1;
+}
+.circle-p{
+    width: 30rem;
+    height: 30rem;
+    border-radius: 100%;
+    display: block;
+    filter: blur(50px);
+    background-color: #F37BF6;
+    z-index: -1;
+}
+.circle-gt{
+    width: 30rem;
+    height: 30rem;
+    border-radius: 100%;
+    display: block;
+    filter: blur(50px);
+    background-color: #F37BF6;
+    background: linear-gradient(90deg, #FEC863 0%, #F37BF6 50.52%, #57E5FF 100%);
+
+    z-index: -1;
+}
+/* custom position circle */
+.p-left{
+    left: 0;
+    margin-left: -5rem;
+}
+.p-right{
+    right: 0;
+    margin-right: -10rem;
+}
+.sct-cir-1{
+    margin-top: -40rem;
+    margin-left: -5rem;
+}
+.sct-cir-3{
+    margin-top: -30rem;
+    margin-left: 60rem;
+}
+.sct-cir-2{
+    margin-top: 0rem;
+    margin-left: 10rem;
+}
+.sct-cir-4{
+    margin-top: -13rem;
+    margin-left: 60rem;
+}
+.sct-cir-6{
+    margin-top: 8rem;
+    margin-left: 50rem;
+}
+.sct-cir-7{
+    margin-left: -2rem;
+}
+.sct-cir-8{
+    margin-left: 70rem;
+    margin-top: -29rem;
+}
+
+.fomo-btn{
+    padding: 10px 50px 10px 50px;
+    font-size: 20px;
+    color: #000;
+    border-radius: 40px;
+    background: linear-gradient(88.68deg, #FEC863 -8.89%, #F37BF6 55.06%, #57E5FF 117.69%);
+    transition: 0.5s;
+}
+.fomo-btn:hover{
+    box-shadow: 1px -3px 68px -11px rgba(0,0,0,0.66);
+    -webkit-box-shadow: 1px -3px 68px -11px rgba(0,0,0,0.66);
+    -moz-box-shadow: 1px -3px 68px -11px rgba(0,0,0,0.66);
+    color: #fff;
+}
+
+.treading-card{
+    outline: 1px groove rgb(255, 255, 255);
+    height: 350px;
+    transition: 0.5s;
+    filter: brightness(100%);
+}
+.treading-card-hover:hover{
+    box-shadow: 1px -3px 68px -11px rgba(0,0,0,0.66);
+    -webkit-box-shadow: 1px -3px 68px -11px rgba(0,0,0,0.66);
+    -moz-box-shadow: 1px -3px 68px -11px rgba(0,0,0,0.66);
+    filter: brightness(70%);
+}
+
+.sec-treading{
+    /* backdrop-filter: blur(50px); */
+    width: 100%;
+    margin-left: 0rem;
+    z-index: 1;
+}
+.treading-card-1{
+    background-image: url(https://images.unsplash.com/photo-1526336024174-e58f5cdd8e13?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+    background-position: center;
+    background-size: cover;
+}
+.treading-card-2{
+    background-image: url(https://images.unsplash.com/photo-1518168741044-13e051f834f0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+    background-position: center;
+    background-size: cover;
+}
+.treading-card-3{
+    background-image: url(https://images.unsplash.com/photo-1524293568345-75d62c3664f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=711&q=80);
+    background-position: center;
+    background-size: cover;
+}
+.treading-card-4{
+    background-image: url(https://images.unsplash.com/photo-1530406831759-15c5c0cbce8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80);
+    background-position: center;
+    background-size: cover;
+}
+
+.trending-icon{
+    background: linear-gradient(45deg, rgba(254,200,99,1) 0%, rgba(243,123,246,1) 50%, rgba(87,229,255,1) 100%);
+    font-size: 50px;
+    padding: 5px;
+    border-radius: 100%;
+    color: rgb(0, 0, 0);
+    margin-right: -20px;
+    margin-top: -90px;
+    position: absolute;
+}
+
+#fomo-scroll{
+    font-size: 72px;
+    font-family: 'Space Grotesk', sans-serif;
+    color: #fff;
+    font-weight: 100;
+    width: 100%;
+    word-spacing: 55px;
+    z-index: 1;
+}
+.scrolltxt{
+    /* background-color: red; */
+    width: 100vw;
+    border-top: 1px solid #ffffff7a;
+    border-bottom: 1px solid #ffffff7a;
+    animation: marquee 32s linear infinite;
+    z-index: 1;
+}
+
+.trending-section{
+    /* background-color: red; */
+    /* backdrop-filter: blur(50px); */
+    position: relative;
+    z-index: 1;
+    padding-top: 150px;
+}
+.trending-section>.container>h5{
+    font-family: 'IBM Plex Sans Thai';
+    font-style: normal;
+    font-weight: 400;
+}
+.trending-section>.container>h1{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.card-group{
+    background-color: red;
+    width: 100%;
+    height: 120px;
+}
+
+.card-trending-1{
+    background-image: url(https://images.unsplash.com/photo-1526336024174-e58f5cdd8e13?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80);
+}
+
+.treading-card-coll{
+    height: 450px;
+}
+.trending-info{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.795);
+    height: 90px;
+    border-radius: 10px;
+    margin-top: -60px;
+    margin-left: 1rem;
+    width: 94%;
+}
+.coll-icons{  
+    background: linear-gradient(90deg, #FEC863 0%, #F37BF6 50.52%, #57E5FF 100%);
+    font-size: 2.5rem;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 1.7rem;
+}
+.title-trending{
+    margin-left: 6%;
+}
+.trend-info-item{
+    display: flex;
+    justify-content: space-around;
+}
+.info-title{
+    font-family: 'IBM Plex Sans Thai';
+    font-style: normal;
+    font-weight: 400;
+    margin-left: -3rem;
+    margin-top: -24px;
+    color: rgb(255, 255, 255);
+}
+.info-subtitle{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    margin-left: -3rem;
+    margin-top: 40px;
+    color: #fff;
+}
+
+.treading-card-coll-1{
+    background-image: url(https://images.unsplash.com/photo-1526336024174-e58f5cdd8e13?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80);
+    background-position: center;
+    background-size: cover;
+}
+.treading-card-coll-2{
+    background-image: url(https://images.unsplash.com/photo-1504626113995-a0e5d91f925d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80);
+    background-position: center;
+    background-size: cover;
+}
+.treading-card-coll-3{
+    background-image: url(https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1136&q=80);
+    background-position: center;
+    background-size: cover;
+}
+
+.treading-card-coll{
+    outline: 1px solid #fff;
+    transition: 0.3s;
+}
+.treading-card-coll:hover{
+    box-shadow: 1px -3px 68px -11px rgba(0,0,0,0.66);
+    -webkit-box-shadow: 1px -3px 68px -11px rgba(0,0,0,0.66);
+    -moz-box-shadow: 1px -3px 68px -11px rgba(0,0,0,0.66);
+    filter: brightness(50%);
+}
+
+@media screen and (max-width: 576px){
+    .trd-coll-3{
+        display: none;
+    }
+    .trd-coll-2{
+        display: none;
+    }
+    .f-fomo-mb-1{
+        display: none;
+    }
+    .fomop-coll-2{
+        display: none;
+    }
+    .fomop-coll-3{
+        display: none;
+    }
+}
+@media screen and (min-width: 576px){
+    .f-fomo-mb-2{
+        display: none;
+    }
+}
+
+.fomoplus-section>.container>h5{
+    font-family: 'IBM Plex Sans Thai';
+    font-style: normal;
+    font-weight: 400;
+}
+.fomoplus-section>.container>h1{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+}
+.title-fomoplus{
+    margin-left: 6%;
+}
+.fomop-info-item{
+    /* display: flex;
+    justify-content: center; */
+}
+.fomo-card-coll{
+    height: 473px;
+    background-color: rgba(0, 0, 0, 0.9);
+    outline: 1px solid #fff;
+}
+.fomop-title{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    background: linear-gradient(90deg, #FEC863 0%, #F37BF6 50.52%, #57E5FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: -13rem;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+.fomop-subtitle{
+    font-family: 'IBM Plex Sans Thai';
+    font-style: normal;
+    font-size: 1rem;
+    margin-top: -9rem;
+    position: absolute;
+    font-weight: 200;
+    line-height: 20px;
+}
+
+.circle-img{
+    width: 13rem;
+    height: 13rem;
+    border-radius: 100%;
+    position: absolute;
+    margin-top: -27rem;
+}
+
+.avatar-1{
+    background-image: url(https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80);
+    background-position: center;
+    background-size: cover;
+}
+.avatar-2{
+    background-image: url(https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1771&q=80);
+    background-position: center;
+    background-size: cover;
+}
+.avatar-3{
+    background-image: url(https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80);
+    background-position: center;
+    background-size: cover;
+}
+
+.fomolive-title{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+}
+.fomolive-subtitle{
+    font-family: 'IBM Plex Sans Thai';
+    font-style: normal;
+    font-size: 2.1rem;
+    font-weight: 300;
+}
+.fomolive-p{
+    font-family: 'IBM Plex Sans Thai';
+    font-style: normal;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+.fomolive-left{
+    /* width: 40%; */
+}
+.fomolive-right{
+    /* width: 50%; */
+}
+.fomo-live-btn{
+    font-family: 'IBM Plex Sans Thai';
+    font-style: normal;
+    transition: 0.3s;
+}
+.fomo-live-btn:hover{
+    color: #fff;
+}
+.fomo-live{
+    /* background-color: red; */
+}
+.fomolive-card-coll{
+    width: 100%;
+    background-image: url(https://www.prachachat.net/wp-content/uploads/2018/11/1.%E0%B9%84%E0%B8%AD%E0%B8%84%E0%B8%AD%E0%B8%99%E0%B8%AA%E0%B8%A2%E0%B8%B2%E0%B8%A1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.fomoplus-into{
+    margin-top: 10rem;
+    /* background-color: #F37BF6; */
+    height: 30rem;
+}
+.sec-fomop-subtitle{
+    font-family: 'IBM Plex Sans Thai';
+    font-style: normal;
+}
+.sec-fomop-title{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+}
+.sec-fomop-dts{
+    font-family: 'IBM Plex Sans Thai';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.fomo-footer{
+    background-color: #111111;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+}
+.fomo-footer>.mb-2{
+    color: #fff;
+}
+.fomo-f-subtitle{
+    font-size: 0.8rem;
+}
